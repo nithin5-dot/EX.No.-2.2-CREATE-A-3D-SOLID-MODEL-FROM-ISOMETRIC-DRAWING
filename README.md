@@ -11,100 +11,86 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## STEP-2:  Select the Sketch Plane
- Select the TOP (XY) Plane
+## PROCEDURE
 
-## STEP-3: Create a Sketch 
-1.  Select Sketch > Rectangle > Center Rectangle.
-2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.  Click once to begin placing the rectangle.
-4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
-5.  Select Sketch > Arc > Center point arc.
-6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
-7.  Type the Tab button and enter the values R 18mm
-8.  Select Sketch > circle > Center point circle.
-9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
-10. Type the Tab button and enter the values dia 16mm
-11. Click again to place the sketch.
-12. Click Finish Sketch after completing.
+## STEP 1:
+1. Draw a circle of 16mm and 36mm from the centre of 28mm.
 
-## STEP-4: Extrude Sketch in XY Plane
-1.	Select Extrude.
-2.	Select the sketch.
-3.	Click again to place the value.
-4.	Type in the value of 8mm. 
-5.	Press ENTER to accept the value.
+<img width="1143" height="582" alt="Screenshot 2026-11-19 220641" src="https://github.com/user-attachments/assets/269ef53a-b051-47be-a6d0-a1085d718ba9" />
 
-## STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
+2. Mirror that circle on the other side.
+   
+<img width="1103" height="568" alt="Screenshot 2026-11-19 220814" src="https://github.com/user-attachments/assets/13174e76-d488-4dff-8af9-96cb811b3b7f" />
 
-## STEP-6: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
+## Step 2:
+1. Draw line above and below the circles and tangent it to the circle and trim the unwanted parts.
+   
+<img width="1105" height="570" alt="Screenshot 2026-11-19 220830" src="https://github.com/user-attachments/assets/f8f7a5de-5368-4f39-a829-704c25304e2a" />
+
+   
+2. Extrude it.
+   
+<img width="1093" height="562" alt="Screenshot 2026-11-19 220846" src="https://github.com/user-attachments/assets/f42a3761-d6b2-4c01-8192-fb6d7c7b3831" />
+
+
+
+## Step 3:
+1. Then draw a 2 point rectangle of height 10mm and breath 20mm.
+   
+<img width="1105" height="572" alt="Screenshot 2026-11-19 220904" src="https://github.com/user-attachments/assets/85f90389-0810-40ee-b69f-c3a31d65cfbe" />
+
+
+2. Then extrude it.
+
+3. Then draw circles above it from the centre of 20mm and 30mm and draw two line near the circle and tangent it and cut the unwanted parts.
+
+ <img width="1101" height="561" alt="Screenshot 2026-11-19 220918" src="https://github.com/user-attachments/assets/79d1676f-ab1e-47ed-915a-044ac9934a23" />
+
+
+4. Now extrude the new part which is drawn now upto -10mm.
+
+<img width="1098" height="562" alt="Screenshot 2026-11-19 220940" src="https://github.com/user-attachments/assets/26a589eb-c276-4277-a7cf-ca95fad9afaf" />
+
   
-## STEP-7: Create a RECTANGLE 
-1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the RECTANGLE.
-4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
-5.	Click again to place the RECTANGLE.
-6.	Click Finish Sketch after completing.
 
-## STEP-8:  Extrude RECTANGLE 
-1.	Select Extrude.
-2.	Select the Rectangle sketch.
-3.	Click again to place the value.
-4.	Type in the value of 32mm. 
-5.	Press ENTER to accept the value.
 
-## STEP-9: Create a TRIANGLE 
-1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the TRIANGLE.
-4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
-5.	Click again to place the TRIANGLE.
-6.	Click Finish Sketch after completing.
+## Step 4:
+1. Now go to the orgins and select YZ line to sketch.
 
-## STEP-10:  Extrude TRIANGLE
-1.	Select Extrude.
-2.	Select the TRIANGLE sketch.
-3.	Click again to place the value.
-4.	Type in the value of 6mm in both direction option. 
-5.	Press ENTER to accept the value.
+<img width="1102" height="567" alt="Screenshot 2026-11-19 221003" src="https://github.com/user-attachments/assets/9cc9aafd-1927-45a0-8fe5-9232bd4ede75" />
 
-## STEP-11: Create a PENTAGON 
-1.	Select Sketch > polygon > circumscribed polygon.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the polygon.
-4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
-5.	Click again to place the polygon.
-6.	Click Finish Sketch after completing.
 
-## STEP-12: Extrude PENTAGON
-1.	Select Extrude.
-2.	Select the PENTAGON sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm. 
-5.	Press ENTER to accept the value.
+2. Then draw a line from from the top to the bottom.
 
-## STEP-13: Create a CIRCLE 
-1.	Select Sketch > CIRCLE > CENTER CIRCLE.
-2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the CIRCLE.
-4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
-5.	Click again to place the circle.
-6.	Click Finish Sketch after completing.
 
-## STEP-14:  Extrude CIRCLE 
-1.	Select Extrude.
-2.	Select the pentogan sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm on both side. 
-5.	Press ENTER to accept the value.
+
+<img width="1107" height="571" alt="Screenshot 2026-11-19 221019" src="https://github.com/user-attachments/assets/b21dedd3-1cdd-45da-96c1-fb202ac83337" />
+ 
+
+
+3. Then give finish sketch and select rib option then rib it upto 12mm.
+
+
+<img width="867" height="586" alt="Screenshot 2026-11-19 221033" src="https://github.com/user-attachments/assets/d3149ef6-8602-44d8-a859-1febc7227171" />
+
+
+
+## Step 5:
+1. Give finish sketch and go to design and select drawing to get the output.
+
+
+<img width="1100" height="571" alt="Screenshot 2026-11-19 221116" src="https://github.com/user-attachments/assets/ba54873c-6049-4cbf-a405-5fb3eb4e0980" />
+
+
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198523331-05ace360-502b-4569-b9b4-31c60e3cd554.png)
 
 Output:
+
+<img width="1920" height="1080" alt="Screenshot 2026-11-18 203257" src="https://github.com/user-attachments/assets/09b03e5d-cefb-4beb-9caf-b361910fc2ea" />
+
+<img width="947" height="658" alt="Screenshot 2026-11-19 220420" src="https://github.com/user-attachments/assets/6afc89c5-7f62-4105-9a61-4ba3755a3fca" />
 
 ## RESULT: 
 Thus, the 3D model is created from given isometric drawing.
